@@ -29,7 +29,7 @@
 - popup with text
 - close btn popup with click event
 
-5. Purple Heart Rain
+5. emoji Rain
 
 - heart css
 - falling animation
