@@ -1,15 +1,14 @@
-const text = 'Words Words Words'
+const text = "Words Words Words";
 
 let index = 0;
 function writeText() {
-    document.body.innerText = text.slice (0, index)
+  document.body.innerText = text.slice(0, index);
 
-    index++
+  index++;
 
-    if(index> text.length) {
-        index = 0
-    }
-
+  if (index > text.length) {
+    index = 0;
+  }
 }
 
-setInterval(writeText, 200)
+setInterval(writeText, 200);

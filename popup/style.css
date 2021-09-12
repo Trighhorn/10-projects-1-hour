@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+button {
+    background-color: #303030;
+    border: none;
+    color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-container.active {
+    display: flex;
+}
+
+.popup {
+    background-color: #f2f2f2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color: #202020;
+    padding: 2rem;
+    width: 500px;
+    position: relative;
+}
+
+.popup button {
+    position: absolute;
+    background-color: #F5B0B1;
+    color: #f2f2f2;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+
+}
