@@ -12,5 +12,26 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: #181818;
+}
+
+button {
+    background-color: #303030;
+    border: none;
     color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.notification {
+    padding: 2rem;
+    background-color: #303030;
+    color: #f2f2f2;
+    border-radius: 5px;
+    margin: 1rem;
 }
